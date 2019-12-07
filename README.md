@@ -1,6 +1,11 @@
 # shoping_site
 dummy shopping site for whitebox pentestig
 
+# motive for creating this lab
+To demonstrate how an attacker can misuse the admin's web page for unreistricted file upload by doing CSRf attack which is supported why blind stored XSS in users contact form.
+
+open User account in window and admin's account in private window
+
 # installation
 1. Extract the file into /var/www/html
 2. run command    service apache2 start && service mysql start
