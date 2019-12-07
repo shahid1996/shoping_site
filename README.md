@@ -11,13 +11,16 @@ dummy shopping site for whitebox pentestig
 
 # create mysql user
 run the following commands in mysql
+
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
 FLUSH PRIVILEGES;
 
+
 # edit config.php
 edit the username and password in config.php
 If you are running in windows dont edit
+```
 <?php
    define('DB_SERVER', 'localhost');
    define('DB_USERNAME', 'user');
@@ -27,3 +30,4 @@ If you are running in windows dont edit
    $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
 ?>
+```
