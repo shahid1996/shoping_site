@@ -13,6 +13,7 @@ open User account in normal window and admin's account in private window.
 2. run command:    service apache2 start && service mysql start
 3. Create database shop_site
 4. run shop_site.sql
+
    mysql "shop_site" < shop_site.sql
 5. done
 
