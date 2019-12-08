@@ -4,6 +4,8 @@ dummy shopping site for whitebox pentestig
 # motive for creating this lab
 To demonstrate how an attacker can misuse the admin's web page for unreistricted file upload by doing CSRf attack which is supported why blind stored XSS in users contact form.
 
+This a whitebox pentesing lab so you can also check out database for credentials or any other information.
+
 open User account in window and admin's account in private window
 
 # installation
