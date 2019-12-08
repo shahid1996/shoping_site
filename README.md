@@ -2,18 +2,17 @@
 dummy shopping site for whitebox pentestig
 
 # motive for creating this lab
-To demonstrate how an attacker can misuse the admin's web page for unreistricted file upload by doing CSRf attack which is supported why blind stored XSS in users contact form.
+To demonstrate how an attacker can misuse the admin's web page for unreistricted file upload by doing CSRf attack which is supported by blind stored XSS.
 
 This a whitebox pentesing lab so you can also check out database for credentials or any other information.
 
-open User account in window and admin's account in private window
+open User account in normal window and admin's account in private window.
 
 # installation
 1. Extract the file into /var/www/html
-2. run command    service apache2 start && service mysql start
+2. run command:    service apache2 start && service mysql start
 3. Create database shop_site
 4. run shop_site.sql
-
    mysql "shop_site" < shop_site.sql
 5. done
 
