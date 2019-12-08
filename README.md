@@ -1,5 +1,7 @@
 # shoping_site
 dummy shopping site for whitebox pentestig
+how I created this lab by just doing google
+https://www.youtube.com/watch?v=tc_GwgdVx5k
 
 # motive for creating this lab
 To demonstrate how an attacker can misuse the admin's web page for unreistricted file upload by doing CSRf attack which is supported by blind stored XSS.
