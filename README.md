@@ -1,6 +1,8 @@
 # shoping_site
 dummy shopping site for whitebox pentestig
+
 how I created this lab by just doing google
+
 https://www.youtube.com/watch?v=tc_GwgdVx5k
 
 # motive for creating this lab
